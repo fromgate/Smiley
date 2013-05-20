@@ -1,10 +1,12 @@
 name: Smiley
 main: me.fromgate.smiley.Smiley
-version: 0.1.0
+version: 0.2.0
 author: fromgate, fromgate@gmail.com
 commands:
    smile:
       aliases: [smiley]
-      description: Show settings of Smiley (or reloads configuration)
+      description: Smiley command
       usage: |
-           /smile [reload]
+           /smile - displays current configurations
+           /smile list [page] - displays available smileys
+           /smile reload - reload configuration and smileys
